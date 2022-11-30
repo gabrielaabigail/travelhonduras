@@ -144,11 +144,31 @@ galeria h3{
 }
 #info-ciudades p{
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 10%;
 	font-size: 20px;
-	margin-left: 40px;
-	margin-right: 40px;
-	padding-bottom: 30px;
+	margin-left: 4%;
+	margin-right: 4%;
+	padding-bottom: 30%;
+}
+#imgcultura h1{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+#infocultura{
+	padding-top: 7%;
+	background-color: var(--color-azulclaro);
+	padding-bottom: 7%;
+}
+
+#infocultura p {
+	text-align: justify;
+	font-size: 16px;
+}
+
+#infocultura h4 {
+	text-align: justify;
+	font-size: 19px;
+	color: #fff;
 }
 
 footer{
@@ -156,7 +176,6 @@ footer{
 	background-color: #071F54;
 	color: #fff;
 	padding: 60px 0 60px 0;
-	margin-top: 5%;
 }
 
 
@@ -235,5 +254,7 @@ footer{
 	margin-top: 0px;
 	text-align: center;
 }
+
+
 
 
