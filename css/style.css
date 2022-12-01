@@ -55,8 +55,6 @@ h3{
    font: "Montserrat";
 	text-align: center;
 	font-weight: 700;
-
-
 }
 
 p{
@@ -68,12 +66,32 @@ p{
 	color:#fff;
 }
 
+#info{
+	text-align: justify;
+}
+
+#aventura{
+	background-image: url("../img/fondo-azul-imagen-fondo.png");
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 500px;
+	height: auto;
+	width: auto;
+}
+#info-aventura{
+	text-align:center;
+	padding-top: 20%;
+	font-size: 20px;
+	padding-right: 10%;
+	padding-left: 10%
+}
+
 #info-aventura{
 	padding-bottom: 70px;
 }
 #aventura h1{
 	color: #fff;
-	font-size: 150px;
+	font-size: 70px;
 }
 
 #aventura h3{ 
@@ -100,27 +118,11 @@ p{
 }
 
 
-
 #visit{ 
   padding: 30px;
-
 }
 
-#aventura{
-	background-image: url("../img/fondo-azul-imagen-fondo.png");
-	padding-top: 100px;
-	padding-bottom: 500px;
-	height: 200px;
-	width: auto;
-}
 
-#info-aventura{
-	text-align:center;
-	padding-top: 60px;
-	font-size: 20px;
-	margin-left: 200px;
-	margin-right: 200px;
-}
 #galeria{
 	text-align: center;
 	padding-bottom: 60px;
@@ -184,9 +186,7 @@ footer{
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-#redes:hover{ 
-	color:var(--color-azulclaro)
-}
+
 	
 
 #redes .la-facebook-f{
