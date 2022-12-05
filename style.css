@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,700&display=swap');
+
+@font-face {
+  font-family: "Black Bones";
+  src: url("../fonts/Black Bones.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.otf") format("truetype");
+}
+
+:root{
+	--color-body: #323232;
+	--color-azul: #071F54;
+	--color-azulclaro: #03A7E0;
+	--color-rojo: #EE0D0C;
+	--color-amarillo: #F8BE07;
+	--color-verde: #1EAF25;
+}
+
+body { 
+  font-family:"Montserrat";
+  font-size: 15px;
+  color: var(--color-body);
+}
+
+header{
+ padding: 10px 0px;
+}
+header img{
+	width: 100px
+}
+
+#hero{ 
+ background-image: url("../img/guarashomepage.jpg");
+  padding: 200px 0px;
+
+}
+
+#topics{
+	padding: 60px;
+}
+
+h1{
+	font: "Montserrat";
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+	color: #071F54;
+	padding-bottom: 30px;
+}
+
+h3{
+   font: "Montserrat";
+	text-align: center;
+	font-weight: 700;
+
+
+}
+
+p{
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.btn-outline-primary{
+	color:#fff;
+}
+
+#info-aventura{
+	padding-bottom: 70px;
+}
+#aventura h1{
+	color: #fff;
+	font-size: 70px;
+}
+
+#aventura h3{ 
+	padding-top: 80px;
+	color: #fff;
+	font-size: 50px;
+	font-weight: 300;
+
+
+}
+#info{
+	
+	padding: 60px;
+	background: #071F54;
+	color: #FFFFFF;
+}
+
+.titulo{
+  font-family: "Black Bones";
+  text-align: justify; 
+  color: #fff;
+  font-size: 80px;
+	
+}
+
+
+
+#visit{ 
+  padding: 30px;
+
+}
+
+#aventura{
+	background-image: url("../img/fondo-azul-imagen-fondo.png");
+	padding-top: 100px;
+	padding-bottom: 500px;
+	height: 200px;
+	width: auto;
+}
+
+#info-aventura{
+	text-align:center;
+	padding-top: 60px;
+	font-size: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+#galeria{
+	text-align: center;
+	padding-bottom: 60px;
+	
+}
+
+#galeria img{
+	width: 300px;
+	height: 250px;
+	padding-top: 30px;
+	border-radius: 10px;
+	
+}
+
+galeria h3{
+	border-bottom: thin dashed;
+}
+
+#info-ciudades{
+	padding-top: 70px;
+}
+#info-ciudades p{
+	text-align: center;
+	padding-top: 10%;
+	font-size: 20px;
+	margin-left: 4%;
+	margin-right: 4%;
+	padding-bottom: 30%;
+}
+#imgcultura h1{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+#infocultura{
+	padding-top: 7%;
+	background-color: var(--color-azulclaro);
+	padding-bottom: 7%;
+}
+
+#infocultura p {
+	text-align: justify;
+	font-size: 16px;
+}
+
+#infocultura h4 {
+	text-align: justify;
+	font-size: 19px;
+	color: #fff;
+}
+
+footer{
+	text-align: center;
+	background-color: #071F54;
+	color: #fff;
+	padding: 60px 0 60px 0;
+}
+
+
+#redes{ 
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#redes:hover{ 
+	color:var(--color-azulclaro)
+}
+	
+
+#redes .la-facebook-f{
+	font-size: 60px;
+	color:#fff;	
+}
+
+#redes .la-instagram{
+	font-size: 60px;
+	color:#fff;
+	
+}
+
+#redes .la-twitter{
+	font-size: 60px;
+	color:#fff;
+	text-align: center;
+	
+	
+}
+
+#redes .la-youtube{
+	font-size: 60px;
+	color:#fff;
+	text-align: center;
+	
+}
+
+.texto1{
+	position: relative;
+	top: -200px;
+	left: -275px;
+}
+
+.full-screen {
+  	background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+}
+
+.text-white {
+	text-align: left;
+	color: #000000;
+}
+
+#testimonial-slider img{
+	height: 400px;
+}
+
+
+#carrusel h5{
+  	display: inherit;
+	position: relative;
+	left: 0%;
+	right: 0%;
+	bottom: 0%;
+  	padding: 0px;
+ 	background-color: rgba(0,0,0,0.57);
+	font-size: 100px;
+	font-weight: 500;
+	text-transform: uppercase;
+	line-height: 1;
+	font-kerning: 20;
+	margin-left: 10px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+#img-historia{ 
+	background-image: url("../img/copan.jpg");
+	padding: 300px 0px;
+
+}
+
+#img-historia h1{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 60px;
+	font-weight: 200;
+}
+
+.bold{ 
+	font-weight: 600;
+
+}
+
+.padding{ 
+	padding: 70px 0px;
+
+
+}
+
+#barra{ 
+    background-image: url("../img/barra.png");
+	padding: 12px 0px;
+
+}
+
+.espacio{ 
+padding: 10px 0px;
+
+}
+
+#barra-2{ 
+    background-image: url("../img/barra.png");
+	padding: 12px 0px;
+
+}
+
+.fondo{
+	background-color: var(--color-azulclaro);
+	padding: 10px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+}
+	
+.letra{
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+
