@@ -73,14 +73,14 @@ p{
 #aventura{
 	background-image: url("../img/fondo-azul-imagen-fondo.png");
 	background-size: cover;
-	padding-top: 100px;
-	padding-bottom: 500px;
+	padding-top: 4%;
+	padding-bottom: 20%;
 	height: auto;
 	width: auto;
 }
 #info-aventura{
 	text-align:center;
-	padding-top: 20%;
+	padding-top: 7%;
 	font-size: 20px;
 	padding-right: 10%;
 	padding-left: 10%
@@ -142,15 +142,14 @@ galeria h3{
 }
 
 #info-ciudades{
-	padding-top: 70px;
+	padding-top: 7%;
 }
 #info-ciudades p{
 	text-align: center;
-	padding-top: 10%;
 	font-size: 20px;
-	margin-left: 4%;
-	margin-right: 4%;
-	padding-bottom: 30%;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-bottom: 8%;
 }
 #imgcultura h1{
 	padding-top: 5%;
