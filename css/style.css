@@ -254,7 +254,72 @@ footer{
 	margin-top: 0px;
 	text-align: center;
 }
+#info-historia{ 
+	text-align: center;
+}
+
+
+#img-historia{ 
+	background-image: url("../img/copan.jpg");
+	padding: 300px 0px;
+	background-size: cover;
+}
+
+#img-historia h1{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 60px;
+	font-weight: 200;
+}
+ .lugaresr{
+	 padding-top: 5%;
+	 padding-bottom: 5%;
+	font-size: 45px;
+}
+
+.bold{ 
+	font-weight: 600;
+
+}
+
+.padding{ 
+	padding: 70px 0px;
 
 
 
+}
 
+#barra{ 
+    background-image: url("../img/barra.png");
+	padding: 12px 0px;
+
+}
+
+.espacio{ 
+padding: 5% 0%;
+
+}
+
+#barra-2{ 
+    background-image: url("../img/barra.png");
+	padding: 12px 0px;
+
+}
+
+.fondo{
+	background-color: var(--color-azulclaro);
+	padding: 10px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+}
+	
+.letra{
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+#lugares-recomendados{
+ padding-bottom: 10%
+}
