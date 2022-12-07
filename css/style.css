@@ -42,6 +42,11 @@ header img{
 	padding: 60px;
 }
 
+#topics img:hover {
+  opacity: 50%;
+color: #03A7E0;
+}
+
 h1{
 	font: "Montserrat";
 	text-align: center;
