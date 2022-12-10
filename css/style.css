@@ -241,24 +241,6 @@ footer{
 	height: 400px;
 }
 
-
-#carrusel h5{
-  	display: inherit;
-	position: relative;
-	left: 0%;
-	right: 0%;
-	bottom: 0%;
-  	padding: 0px;
- 	background-color: rgba(0,0,0,0.57);
-	font-size: 100px;
-	font-weight: 500;
-	text-transform: uppercase;
-	line-height: 1;
-	font-kerning: 20;
-	margin-left: 10px;
-	margin-top: 0px;
-	text-align: center;
-}
 #info-historia{ 
 	text-align: center;
 }
@@ -328,3 +310,149 @@ padding: 5% 0%;
 #lugares-recomendados{
  padding-bottom: 10%
 }
+
+#contact-us-img h1{
+	padding-top: 20%;
+	text-align:left;
+}
+.card{
+	background-color: #fff ;
+	margin-top: -115%;
+	border: 0px;
+	border-bottom: 2px solid var(--color-azul);
+	box-shadow: 0px 0px 30px 0px #ddd;
+	align-content: center;
+}
+
+.card h3{
+	color: var(--color-azul);
+	letter-spacing: 2%;
+	padding-bottom: 4%;
+	font-size: 20px;
+}
+
+.card p{
+	text-align: center;
+	font-size: 16px;
+}
+
+.btn-azul{
+	display: inline-block !important;
+	background-color: var(--color-azulclaro);
+	color: #fff;
+	font-size:16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-left: 13%;
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+
+#cards .la-phone{
+	background-color: var(--color-azulclaro);
+	font-size: 60px;
+	color: #fff;
+	border-radius: 50%;
+	padding: 15px;
+}
+
+#cards .la-headset{
+	background-color: var(--color-azulclaro);
+	font-size: 60px;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	padding: 15px;
+}
+
+#cards li{
+	text-align: center;
+	padding-right: 13%;
+	margin-top: -60px;
+	padding-bottom: 8%;
+}
+
+#form h5{
+	text-align: center;
+	color: var(--color-azul);
+	font-weight: 800;
+}
+
+#form h1{
+	padding-bottom: 6%;
+}
+
+#form .form-info{
+	background-color: #fff;
+	padding: 25px 30px;
+	text-align: center;
+	box-shadow: 0px 0px 30px 0px #ddd;
+}
+
+#form input, 
+#form textarea{
+	padding: 15px;
+	border-radius: 0;
+	background-color: #fbfbfb;
+	border:0;
+}
+
+#form .btn{
+	margin-left: -0%;
+	text-align: center;
+}
+
+#form{
+	padding-bottom: 5%;
+}
+
+#pueblosmagicos{
+	background-image: url("../img/pueblos5.jpg");
+	background-size: cover;
+	padding-top: 4%;
+	padding-bottom: 20%;
+	height: auto;
+	width: auto;
+}
+
+
+#pueblosmagicos h1{
+	color: #fff;
+	font-size: 70px;
+	font-weight: 800;
+	padding-bottom: 80px;
+}
+
+#pueblosmagicos h3{ 
+	padding-top: 80px;
+	color: #fff;
+	font-size: 50px;
+	font-weight: 400;
+}
+
+#pueblosmagicos p{
+	color: #fff;
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: center;
+	padding-top: 15px;
+}
+
+#puebloslista .card{
+	margin-top: 0;
+}
+
+#puebloslista h4{
+	text-align: center;
+	font-size: 20px;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+#puebloslista{
+	padding-top: 7%;
+	padding-bottom: 10%;
+}
+
+
